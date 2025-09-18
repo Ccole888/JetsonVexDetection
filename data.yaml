@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Vex-Pieces-BLUE', 'Vex-Pieces-RED']
+
+roboflow:
+  workspace: colin-7rode
+  project: vex-cubes-ksnfv
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/colin-7rode/vex-cubes-ksnfv/dataset/6
