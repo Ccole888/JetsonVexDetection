@@ -7,7 +7,7 @@ def main():
     if torch.cuda.is_available():
         print(f"GPU name: {torch.cuda.get_device_name(0)}")
     
-    model = YOLO('yolov8s.pt')
+    model = YOLO('yolov8n.pt')
     
     results = model.train(
         data='data.yaml',
